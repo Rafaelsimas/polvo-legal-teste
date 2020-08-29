@@ -1,0 +1,137 @@
+
+
+.navbar-nav{
+    margin-left: 0%;
+}
+
+.nav-item{
+    margin-left: 0%;
+}
+
+
+
+.btn-0{
+    margin-top: 1%;
+    padding: 17px 27px;
+ 
+    font-family: 'manrope', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border: 1px solid purple;
+    background: purple;
+    color: white;
+    border-radius: 7px;
+    
+}
+
+.segunda-imagem, .terceira-imagem, .quarta-imagem, quinta-imagem, .redes-sociais{
+    width: 100px;
+  }
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.uma-div{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    height: 530px;
+
+}
+
+.box{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*------------------------------------
+------------------------------------- 
+fim da configuração responsiva para todos os css's
+------------------------------------
+-------------------------------------  */
+
+
+/*------------------------------------
+------------------------------------- 
+inicio da sessao inovacao
+------------------------------------
+-------------------------------------  */
+
+.box-sobre{
+   
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #cef6f8;
+}
+
+.primeira-imagem{
+  width:355px;
+  margin-left: 14%;
+}
+
+h1{
+    text-align: center;
+    font-family: 'manrope', sans-serif;
+}
+
+.paragrafo-inovacao{
+    margin-top: 5%;
+    text-align: center;
+    font-family: 'manrope', sans-serif;
+    font-size: 18px;
+}
+
+.btn-2{
+    margin-top: 5%;
+    width: 80%;
+    margin-left: 10%;
+    padding: 12px ;
+    border-radius: 7px;
+    border: none;
+    color: white;
+    border: 1px solid purple;
+    background: purple;
+}
+/*------------------------------------
+------------------------------------- 
+fim da sessao inovacao
+------------------------------------
+-------------------------------------  */
+
+/*------------------------------------
+------------------------------------- 
+inicio da sessao sobre
+------------------------------------
+-------------------------------------  */
+
+.titulo-sobre{
+    margin-bottom: 4%;
+    font-size: 30px;
+    padding-top: 10%;
+    text-align: center;
+    font-family: 'manrope', sans-serif;
+    /* padding-left: 4%; */
+}
+
+.paragrafo-sobre{
+    text-align: center;
+    font-size: 18px;
+    line-height: 23px;
+    font-family: 'manrope', sans-serif;
+}
+
+/*------------------------------------
+------------------------------------- 
+fim da sessao sobre
+------------------------------------
+-------------------------------------  */
+
+.caixa{
+    width: 200px;
+}

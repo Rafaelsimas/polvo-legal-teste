@@ -1,0 +1,108 @@
+
+.navbar-nav{
+    margin-left: 0%;
+}
+
+.nav-item{
+    margin-left: 0%;
+}
+
+
+.btn-0{
+    margin-top: 1%;
+    padding: 17px 27px;
+  
+    font-family: 'manrope', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border: 1px solid purple;
+    background: purple;
+    color: white;
+    border-radius: 7px;
+    
+}
+
+/*------------------------------------
+------------------------------------- 
+inicio da configuração responsiva para todos os css's
+------------------------------------
+-------------------------------------  */
+
+.segunda-imagem, .terceira-imagem, .quarta-imagem, quinta-imagem, .redes-sociais{
+    width: 100px;
+  }
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.uma-div{
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    height: 500px;
+
+}
+
+.div-box{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*------------------------------------
+------------------------------------- 
+fim da configuração responsiva para todos os css's
+------------------------------------
+-------------------------------------  */
+
+/*------------------------------------
+------------------------------------- 
+inicio da sessao inovacao
+------------------------------------
+-------------------------------------  */
+
+h1{
+    font-size: 60px;
+    padding-top: 10%;
+    text-align: left;
+    font-family: 'manrope', sans-serif;
+    padding-left: 4%;
+}
+
+.paragrafo-inovacao{
+    font-size: 20px;
+    margin-top: 2%;
+    text-align: left;
+    font-family: 'manrope', sans-serif;
+    width: 30%;
+    margin-left: 4%;
+}
+
+.primeira-imagem{
+    float: right;
+    width: 600px;
+}
+
+.btn-2{
+    margin-top: 1%;
+    padding: 17px 27px;
+    width: 15%;
+    margin-left: 50px;
+    font-family: 'manrope', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+/*------------------------------------
+------------------------------------- 
+fim da sessao inovacao
+------------------------------------
+-------------------------------------  */
+
+.caixa{
+    width: 200px;
+}

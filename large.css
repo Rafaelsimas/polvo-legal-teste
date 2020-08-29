@@ -1,0 +1,422 @@
+/* inicio do header desktop */
+
+.logo{
+    width: 300px;
+}
+
+.navbar-nav{
+margin-left: 25%;
+
+}
+
+.nav-link{
+    font-weight: bold;
+    font-family: 'manrope', sans-serif;
+    font-size: 16px;
+    margin-left:25%;
+
+}
+
+#btn-1{
+    border: 1px solid purple;
+    padding: 12px 20px;
+    text-align: left;
+    text-align: center;
+    border-radius: 6px;
+    background: purple;
+    color: white;
+}
+/* fim do header desktop */
+/*------------------------------------
+------------------------------------- 
+inicio da configuração responsiva para todos os css's
+------------------------------------
+-------------------------------------  */
+.imagem{
+    width: 600px;
+    margin-top: 30%;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color:#322f3f ;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color:#322f3f ;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    color: #595666;
+    font-size: 18px;
+}
+
+.uma-div-inovacao{
+    height: 67vh;
+   margin-bottom: 300px;
+    position: relative;
+    width: 1350px;
+    /* margin: 0 auto; */
+
+}
+
+.box-inovacao{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.purple-ball{
+    color: purple;
+    border: none;
+    border-radius: 59px;
+}
+.green-ball{
+    color: rgb(40, 173, 51);
+    border: none;
+    border-radius: 59px;
+}
+
+/*------------------------------------
+------------------------------------- 
+fim da configuração responsiva para todos os css's
+------------------------------------
+-------------------------------------  */
+
+/*------------------------------------
+------------------------------------- 
+inicio da sessao inovacao
+------------------------------------
+-------------------------------------  */
+
+.box-sobre{
+   
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(199, 245, 247);
+}
+
+h1{
+    font-size: 50px;
+    /* padding-top: 5%; */
+    margin-bottom: 4%;
+    text-align: left;
+    font-family: 'manrope', sans-serif;
+    padding-left: 4%;
+}
+
+.paragrafo-inovacao{
+    font-size: 20px;
+    /* margin-top: 2%; */
+    text-align: left;
+    font-family: 'manrope', sans-serif;
+    width: 30%;
+    margin-left: 4%;
+}
+
+.primeira-imagem{
+    float: right;
+    width: 500px;
+    margin-top: 6%;
+}
+
+.btn-2{
+    margin-top: 1%;
+    padding: 17px 27px;
+    width: 15%;
+    margin-left: 50px;
+    font-family: 'manrope', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+/*------------------------------------
+------------------------------------- 
+fim da sessao inovacao
+------------------------------------
+-------------------------------------  */
+
+/*------------------------------------
+------------------------------------- 
+inicio da sessao sobre
+------------------------------------
+-------------------------------------  */
+
+.titulo-sobre{
+    margin-bottom: 4%;
+    font-size: 60px;
+    padding-top: 10%;
+    text-align: center;
+    font-family: 'manrope', sans-serif;
+    padding-left: 4%;
+}
+
+.paragrafo-sobre{
+    text-align: center;
+    font-size: 20px;
+    width: 60%;
+    line-height: 23px;
+    margin-left: 20%;
+    font-family: 'manrope', sans-serif;
+    margin-bottom: 1900px;
+
+}
+/*------------------------------------
+------------------------------------- 
+fim da sessao sobre
+------------------------------------
+-------------------------------------  */
+
+/*------------------------------------
+------------------------------------- 
+inicio da sessao fazemos
+------------------------------------
+-------------------------------------  */
+
+.titulo-fazemos{
+    font-size: 60px;
+    text-align: center;
+    font-family: 'manrope', sans-serif;
+    padding-left: -2%;
+}
+
+
+.btn-3{
+    margin-top: 1%;
+    padding: 17px 27px;
+    margin-left: 45%;
+    font-family: 'manrope', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border: 1px solid purple;
+    background: purple;
+    color: white;
+    border-radius: 7px;
+    
+}
+
+
+
+/*------------------------------------
+------------------------------------- 
+fim da sessao sobre
+------------------------------------
+-------------------------------------  */
+
+/* cards */
+.card-white {
+    background: white;
+    box-shadow: 0 0 16px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    padding: 24px;
+    margin: 8px;
+    flex-grow: 1;
+  }
+  
+  .card-white img {
+    border-radius: 4px;
+  }
+  
+  .card-white h3 {
+    margin-bottom: 0;
+    font-family: 'manrope', sans-serif;
+  }
+  .card-white p {
+    margin-bottom: 0;
+    font-family: 'manrope', sans-serif;
+  }
+  
+  
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 16px;
+  }
+
+
+  .btn-3{
+      margin-top: 15%;
+      margin-left: 44%;
+  }
+
+  /*------------------------------------
+------------------------------------- 
+Início da sessao processo
+------------------------------------
+-------------------------------------  */
+
+.uma-div{
+
+    position: relative;
+    width: 1350px;
+    margin: 0 auto;
+   
+
+}
+
+.box-processo{
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-novo {
+    
+    border-radius: 4px;
+    padding: 24px;
+    margin: 8px;
+    flex-grow: 1;
+  }
+  
+  .card-white img {
+  
+    border-radius: 4px;
+  }
+  
+
+.sub-texto {
+    font-size: 16px;
+    margin-bottom: 0;
+    font-family: 'manrope', sans-serif;
+  }
+
+  .paragrafo-processo{
+    font-size: 16px;
+    font-family: 'manrope', sans-serif;
+    
+  }
+  
+  
+  .cards-n{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 16px;
+  }
+
+  .titulo-processo{
+    margin-bottom: 4%;
+    font-size: 36px;
+    padding-top: 10%;
+    text-align: left;
+    font-family: 'manrope', sans-serif;
+}
+
+
+  /*------------------------------------
+------------------------------------- 
+Fim da sessao processo
+------------------------------------
+-------------------------------------  */
+
+  /*------------------------------------
+------------------------------------- 
+inico da sessao formulario
+------------------------------------
+-------------------------------------  */
+.uma-div-footer{
+
+    position: relative;
+    margin: 0 auto;
+ 
+
+}
+
+input[type=text]{
+    width: 612px;
+    padding: 15px 0;
+    border: none;
+    border: 1px solid purple;
+    border-radius: 7px;
+    background: rgb(154, 58, 173);
+}
+
+input[type=email]{
+    width: 612px;
+    padding: 15px 0;
+    border: none;
+    border: 1px solid purple;
+    border-radius: 7px;
+    background: rgb(154, 58, 173);
+}
+
+.caixa{
+    border: none;
+    border: 1px solid purple;
+    border-radius: 7px;
+    background: rgb(154, 58, 173);
+    width: 99%;
+   
+}
+
+
+::placeholder{
+    color: black;
+    font-family: 'manrope', sans-serif;
+    font-size: 14px;
+}
+
+label{
+    font-size: 20px;
+    font-family: 'manrope', sans-serif;
+}
+
+.box-form{
+    margin-left: 25%;
+}
+
+
+
+.card-form{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap: 16px;
+    display: inline-block;
+  }
+
+  .card-form {
+    
+    border-radius: 4px;
+    padding: 24px;
+    margin: 8px;
+    flex-grow: 1;
+  }
+
+  .btn-form{
+    margin-top: 5%;
+    margin-left: 3%;
+    padding: 12px 40px ;
+    border-radius: 7px;
+    border: none;
+    color: white;
+    border: 1px solid purple;
+    background: purple;
+  }
+
+  /*------------------------------------
+------------------------------------- 
+fim da sessao formulario
+------------------------------------
+-------------------------------------  */
+
+footer{
+    width: 100%;
+    background: black;
+    padding: 50px;
+    margin-top: 290px;
+}
+
+span{
+    color: white;
+    margin-left: 19%;
+}
